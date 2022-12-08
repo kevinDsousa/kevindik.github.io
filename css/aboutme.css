@@ -54,10 +54,23 @@ main {
     border-radius: 10px;
 }
 
-.box-icon {
-    content: "";
+.box-icons {
+    display: block;
 }
 
-.font-icon::before {
-    content: "\e902"
+.box-icons ul {
+    
+}
+
+.box-icons ul li {
+    margin: 5px;
+}
+
+.box-icons ul li img{
+    width: 18px;
+    border-top: 1px solid var(--icon-color);
+    border-left: 1px solid var(--icon-color);
+    border-radius: 8px;
+    background-image: linear-gradient(140deg, var(--icon-color) 0.08%, var(--bg-information) 10%, var(--bg-card) 20%);
+    padding: 0.8rem;
 }
