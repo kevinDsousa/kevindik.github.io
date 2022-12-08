@@ -13,6 +13,8 @@ aside, main {
     box-sizing: border-box;
 }
 
+/*style do aside*/
+
 aside {
     background-color: var(--bg-card);
     border: 1px solid var(--avatar);
@@ -61,9 +63,12 @@ main {
 }
 
 .box-icons ul li {
-    margin: 10px;
-    color: #ccc;
-    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .box-icons ul li img{
@@ -75,9 +80,15 @@ main {
     padding: 0.8rem;
 }
 
+.box-icons ul li p {
+    color: #ccc;
+    font-size: 12px;
+}
+
 .box-icons ul li span {
     padding: 0.5rem;
     font-size: 15px;
+    display: block;
 }
 
 .social-media {
@@ -97,3 +108,6 @@ main {
 .social-media img:hover {
     opacity: 0.5;
 }
+
+/*style do main*/
+
