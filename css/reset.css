@@ -1,12 +1,15 @@
 @import url("./reset.css");
+@import url("./menu.css");
 
 * {
     text-decoration: none;
+	color: white;
 }
 /*Variaveis globais*/
 :root {
     --bg-color: #121212;
     --bg-card: #1e1e1f;
+	--bg-information: #373737;
     --text-hover: #d4b05d;
     --avatar: #3B3B3C;
 }
@@ -19,7 +22,6 @@ body {
 nav {
     background-color: var(--bg-card)
 }
-
 
 /*Reset css*/
 html, body, div, span, applet, object, iframe,
