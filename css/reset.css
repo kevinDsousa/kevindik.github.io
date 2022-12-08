@@ -1,3 +1,27 @@
+@import url("./reset.css");
+
+* {
+    text-decoration: none;
+}
+/*Variaveis globais*/
+:root {
+    --bg-color: #121212;
+    --bg-card: #1e1e1f;
+    --text-hover: #d4b05d;
+    --avatar: #3B3B3C;
+}
+
+/*variaveis principais*/
+body {
+    background-color: var(--bg-color);
+}
+
+nav {
+    background-color: var(--bg-card)
+}
+
+
+/*Reset css*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,3 +65,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+

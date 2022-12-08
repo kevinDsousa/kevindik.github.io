@@ -1,0 +1,12 @@
+@import url("./reset.css");
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.personal-information img {
+    width: 100px;
+}
