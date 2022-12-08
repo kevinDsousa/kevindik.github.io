@@ -1,4 +1,5 @@
 @import url("./reset.css");
+@import url("./menu.css");
 
 body {
     width: 100%;
@@ -53,3 +54,10 @@ main {
     border-radius: 10px;
 }
 
+.box-icon {
+    content: "";
+}
+
+.font-icon::before {
+    content: "\e902"
+}
