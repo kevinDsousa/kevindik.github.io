@@ -146,7 +146,7 @@ main {
 /*section de skills*/
 
 .skills {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 3rem 2rem 3rem;
 }
 
 h2 {
@@ -194,4 +194,57 @@ h2 {
 .skills-content .skills-box h3, p {
     display: flex;
     justify-content: right;
+}
+
+/*Testimony*/
+
+.testimony {
+    padding: 0.5rem 3rem;
+}
+
+.testimony h2 {
+    margin-bottom: 2rem;
+}
+
+.testimony-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: start;
+}
+
+.testimony-content div{
+    border-top: 1px solid var(--icon-color);
+    border-left: 1px solid var(--icon-color);
+    border-radius: 8px;
+    background-image: linear-gradient(140deg, var(--icon-color), var(--bg-information) 1%, var(--bg-card) 60%);
+    padding: 2.5em;
+    position: relative;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.testimony-content div:nth-child(1), 
+.testimony-content div:nth-child(3) {
+    margin-right: 2rem;
+}
+.testimony-content div:nth-child(3), 
+.testimony-content div:nth-child(4) {
+    margin-top: 2rem;
+}
+
+.testimony-content div img {
+    width: 15%;
+    border-top: 1px solid var(--icon-color);
+    border-left: 1px solid var(--icon-color);
+    border-radius: 20px;
+    background-image: linear-gradient(140deg, var(--icon-color), #2A2A2B 1%, var(--bg-card) 80%);
+    padding: 0.5rem;
+    position: absolute;
+    top: -1.5rem;
+}
+
+.testimony-content div p {
+    font-weight: lighter;
 }
