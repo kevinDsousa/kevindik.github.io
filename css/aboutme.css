@@ -161,7 +161,7 @@ h2 {
     justify-content: start;
 }
 
-.skills-content div {
+.skills-content .skills-box {
     border-top: 1px solid var(--icon-color);
     border-left: 1px solid var(--icon-color);
     border-radius: 8px;
@@ -174,14 +174,23 @@ h2 {
     padding: 25px;
 }
 
-.skills-content div:nth-child(1), .skills-content div:nth-child(3) {
+.skills-content .skills-box:nth-child(1), .skills-content div:nth-child(3) {
     margin-right: 2rem;
 }
-.skills-content div:nth-child(3), .skills-content div:nth-child(4) {
+.skills-content .skills-box:nth-child(3), .skills-content div:nth-child(4) {
     margin-top: 2rem;
 }
 
-.skills-content div h3 {
+.skills-content .skills-box h3 {
     font-weight: bold;
+    padding-bottom: 4px;
 }
 
+.skills-content .skills-box p {
+    font-weight: lighter;
+}
+
+.skills-content .skills-box h3, p {
+    display: flex;
+    justify-content: right;
+}
