@@ -1,6 +1,11 @@
+.content-menu {
+    position: relative;
+}
+
 .menu{
-    background-color: var(--avatar);
-    padding: 2rem 0;
+    background-color: #2A2A2B;
+    padding: 1.5rem 0;
+    border: 1px solid #363636;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 0;
     border-top-left-radius: 0;
@@ -9,6 +14,7 @@
     top: 0;
     right: 0;
     width: 55%;
+    z-index: 1;
 }
 
 .menu ul {
