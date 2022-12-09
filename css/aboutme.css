@@ -27,6 +27,7 @@ main {
     border: 1px solid var(--avatar);
     margin: 3.5rem 3.5rem 3.5rem 1rem;
     border-radius: 20px;
+    position: relative;
 }
 
 .personal-information {
@@ -111,3 +112,29 @@ main {
 
 /*style do main*/
 
+/*conteudo*/
+
+.content {
+    padding: 0 3rem;
+    font-weight: 100;
+}
+
+.content h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+    margin: 2rem 0 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 6px;
+    background-color: var(--text-hover);
+    z-index: 0;
+    border-radius: 20px;
+}

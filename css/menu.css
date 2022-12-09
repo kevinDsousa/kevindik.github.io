@@ -3,14 +3,20 @@
     padding: 2rem 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 0;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 0;
     border-top-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
 }
 
 .menu ul {
     display: flex;
     gap: 4%;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu ul li a:hover {
