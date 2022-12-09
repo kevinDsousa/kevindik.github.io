@@ -21,6 +21,7 @@ aside {
     border: 1px solid var(--avatar);
     margin: 3.5rem 1rem 3.5rem 3.5rem;
     border-radius: 20px;
+    height: 45%;
 }
 
 main {
@@ -198,8 +199,9 @@ h2 {
 
 /*Testimony*/
 
-.testimony {
+.testimony{
     padding: 0.5rem 3rem;
+    position: relative;
 }
 
 .testimony h2 {
@@ -229,7 +231,7 @@ h2 {
 .testimony-content div:nth-child(3) {
     margin-right: 2rem;
 }
-.testimony-content div:nth-child(3), 
+.testimony-content div:nth-child(1), 
 .testimony-content div:nth-child(4) {
     margin-top: 2rem;
 }
@@ -247,4 +249,31 @@ h2 {
 
 .testimony-content div p {
     font-weight: lighter;
+    
+}
+
+.testimony-content div p::after {
+    content: '"';
+    position: absolute;
+    top: 0;
+    right: 1;
+    z-index: 1;
+    color: var(--text-hover);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+}
+
+/*Clients*/
+
+.clients{
+    padding: 0.5rem 3rem;
+}
+
+.clients h2 {
+    margin-bottom: 2rem;
+}
+
+.clients img:hover {
+    cursor: pointer;
 }
