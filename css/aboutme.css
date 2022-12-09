@@ -85,6 +85,7 @@ main {
 .box-icons ul li p {
     color: #ccc;
     font-size: 12px;
+    display: inline-block;
 }
 
 .box-icons ul li span {
