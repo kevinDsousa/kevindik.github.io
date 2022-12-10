@@ -69,3 +69,147 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    font-family: 'Roboto Mono', monospace;
+}
+
+aside,
+main {
+    box-sizing: border-box;
+}
+
+/*style do aside*/
+
+aside {
+    background-color: var(--bg-card);
+    border: 1px solid var(--avatar);
+    margin: 1rem 1rem 1rem 2rem;
+    border-radius: 20px;
+    height: 700px;
+}
+
+main {
+    background-color: var(--bg-card);
+    border: 1px solid var(--avatar);
+    margin: 1rem 2rem 1rem 1rem;
+    border-radius: 20px;
+    position: relative;
+    height: 95%;
+}
+
+/*informacoes pessoais*/
+
+.personal-information {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personal-information img {
+    width: 100px;
+    background-color: var(--avatar);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.personal-information h1 {
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.personal-information span {
+    background-color: var(--avatar);
+    padding: 6px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.box-icons {
+    display: flex;
+}
+
+.box-icons ul li {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.box-icons ul li img {
+    width: 18px;
+    border-top: 1px solid var(--icon-color);
+    border-left: 1px solid var(--icon-color);
+    border-radius: 8px;
+    background-image: linear-gradient(140deg, var(--icon-color) 1%, var(--bg-information) 10%, var(--bg-card) 60%);
+    padding: 0.8rem;
+}
+
+.box-icons ul li p {
+    color: #ccc;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.box-icons ul li span {
+    padding: 0.5rem;
+    font-size: 15px;
+    display: block;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    cursor: pointer;
+}
+
+.social-media img {
+    margin: 2rem 0;
+    width: 20px;
+    transition: opacity 0.2s ease-out;
+}
+
+.social-media img:hover {
+    opacity: 0.5;
+}
+
+/*main*/
+
+.content {
+    font-weight: 100;
+    padding: 3rem
+}
+
+.content h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 2.4rem;
+    height: 0.3125rem;
+    background-color: var(--text-hover);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.content p {
+    padding-top: 2rem;
+}
