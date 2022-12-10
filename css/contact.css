@@ -1,0 +1,13 @@
+@import url("./menu.css");
+@import url("./reset.css");
+
+/*mapa*/
+
+.content iframe {
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
