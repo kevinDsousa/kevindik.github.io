@@ -7,12 +7,6 @@
     padding: 0.5rem 3rem 2rem 3rem;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
 .skills-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,7 +55,7 @@ h2 {
     position: relative;
 }
 
-.testimony h2 {
+.testimony h3 {
     margin-bottom: 2rem;
 }
 
@@ -127,7 +121,7 @@ h2 {
     padding: 0.5rem 3rem;
 }
 
-.clients h2 {
+.clients h3 {
     margin-bottom: 2rem;
 }
 

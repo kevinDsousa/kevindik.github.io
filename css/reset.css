@@ -25,6 +25,7 @@ nav {
 }
 
 /*Reset css*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,7 +46,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -69,6 +70,22 @@ table {
 	border-spacing: 0;
 }
 
+/*h2*/
+.titles {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*h3*/
+.subs-titles {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -81,6 +98,8 @@ aside,
 main {
     box-sizing: border-box;
 }
+
+
 
 /*style do aside*/
 
