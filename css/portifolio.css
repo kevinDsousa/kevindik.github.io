@@ -1,0 +1,15 @@
+@import url("./reset.css");
+@import url("./menu.css");
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-project {
+    border: 1px solid red;
+}
