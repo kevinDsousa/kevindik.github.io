@@ -66,7 +66,7 @@
     justify-content: start;
 }
 
-.testimony-content div{
+.testimony-content .carousel-item{
     border-top: 1px solid var(--icon-color);
     border-left: 1px solid var(--icon-color);
     border-radius: 8px;
@@ -76,6 +76,7 @@
     height: 4.5rem;
     display: flex;
     align-items: center;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.205);
 }
 
 .testimony-content div:nth-child(1), 
@@ -83,8 +84,8 @@
     margin-right: 2rem;
 }
 .testimony-content div:nth-child(1), 
-.testimony-content div:nth-child(4) {
-    margin-top: 2rem;
+.testimony-content div:nth-child(2) {
+    margin-bottom: 2rem;
 }
 
 .testimony-content div img {

@@ -75,6 +75,8 @@ table {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    position: relative;
+    text-transform: uppercase;
 }
 
 /*h3*/
@@ -208,13 +210,6 @@ main {
 .content {
     font-weight: 100;
     margin: 3rem;
-}
-
-.content h2 {
-    font-weight: bold;
-    font-size: 1.5rem;
-    position: relative;
-    text-transform: uppercase;
 }
 
 .content h2::after {
