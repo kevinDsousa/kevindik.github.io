@@ -28,3 +28,12 @@
 .menu ul li a:hover {
     color: #ccc;
 }
+
+/*submenu*/
+
+.submenu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: 30px 0;
+}
