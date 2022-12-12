@@ -1,12 +1,12 @@
-function selecteCarouselItem(selectedButtonElement) {
-    const carousel = document.querySelector('carousel-slide');
-    let idx = 0;
-    if(idx > carousel) {
-        idx = 0;
-    }
-    const transform = carrousel.style.transform;
-    
-    transform = `translateX(${-idx * 500}px)`;
+function animationAside() {
+    document.addEventListener('scroll', (event) => {
+        let altura = window.pageYOffset;
+        if(altura > 50){
+            document.getElementsByTagName("aside")[0].classList.add("active");
+        }else{
+            document.getElementsByTagName("aside")[0].classList.remove("active");
+        }
+    });
 }
 
-setInterval(selecteCarouselItem, 1800);
+animationAside();

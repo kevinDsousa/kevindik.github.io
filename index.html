@@ -8,16 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/favicons/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/aboutme.css">
-    <script src="/assets/scripts/index.js"></script>
+    <script src="/scripts/index.js"></script>
     <title>Aboute me</title>
 </head>
 
 <body>
+    <!-- esquerda -->
     <aside>
         <section class="information">
             <div class="personal-information">
@@ -52,6 +53,8 @@
             </div>
         </section>
     </aside>
+
+    <!-- direita -->
     <main>
         <section>
             <div class="content-menu">
@@ -105,13 +108,13 @@
             <h3 class="subs-titles">Testimonials</h3>
             <div class="carousel-slide">
                 <div class="testimony-content">
-                    <div class="carousel-item">
+                    <div class="carousel-item--visible">
                         <a href="">
                             <img src="./assets/clients/client1.png" alt="Cliente Lukas">
                             <p>Pessoa criativa que sempre busca resolver suas demandas.</p>
                         </a>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item--visible">
                         <a href="">
 
                             <img src="./assets/clients/client2.png" alt="Cliente Marta">
@@ -130,6 +133,10 @@
                             <p>Um grande amigo que me ajudou sempre que precisei.</p>
                         </a>
                     </div>
+                    <div class="carousel-actions">
+                        <button id="next"></button>
+                        <button id="back"></button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -146,6 +153,4 @@
         </section>
     </main>
 </body>
-
-
 </html>

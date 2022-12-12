@@ -24,6 +24,10 @@ nav {
     background-color: var(--bg-card)
 }
 
+aside.active {
+    top: 80px;
+}
+
 /*Reset css*/
 
 html, body, div, span, applet, object, iframe,
