@@ -9,6 +9,8 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 /*Variaveis globais*/
 :root {
@@ -83,7 +85,6 @@ main {
 
 .data ul {
     margin: 10px;
-    padding: 5px
 }
 
 .data ul li{
@@ -95,17 +96,41 @@ main {
 
 .data ul li p{
     font-size: 12px;
+    font-weight: 700;
+}
+
+.data ul li p span {
+    font-weight: 100;
 }
 
 .data li img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-top: 1px solid var(--icon-color);
     border-left: 1px solid var(--icon-color);
     border-radius: 8px;
-    background: linear-gradient(140deg, var(--icon-color) 1%, var(--bg-information) 10%, var(--bg-card) 60%);
+    background: linear-gradient(140deg, var(--icon-color) 1%, var(--bg-information) 5%, var(--bg-card) 40%);
     padding: 0.8rem;
     margin-bottom: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px
+}
+
+.social-media h2 {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.social-media ul li a img {
+    width: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -124,16 +149,44 @@ main {
         width: 90%;
     }
 
-    .data ul {
+    .data {
         display: flex;
-        gap: 20px;
+        justify-content: flex-end;
+    }
+
+    .data ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
-        justify-content: center;
     }
 
     .data li img {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
+    .data ul li img:active {
+        opacity: .3;   
+    }
+
+    .data ul li {
+        width: 100%;
+        transition: opacity 0.3s ease-in-out;  
+        padding: 5px;
+    }
+
+    .data ul li:nth-child(1), 
+    .data ul li:nth-child(3)  {
+       padding-left:60px;
+    }
+
+    .data ul li p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
   }
