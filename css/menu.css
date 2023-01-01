@@ -18,6 +18,7 @@
 }
 
 .menu ul {
+    padding: 0;
     display: flex;
     gap: 5%;
     flex-direction: row;
