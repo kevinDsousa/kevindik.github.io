@@ -34,7 +34,6 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    font-family: 'Roboto Mono', monospace;
 }
 
 main, aside {
@@ -55,4 +54,86 @@ main {
     position: relative;
 }
 
-/*informacoes pessoais*/
+/*aside*/
+
+.apresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5%;
+}
+
+.apresentation img{
+    border-radius: 60px;
+    border: 2px solid var(--text-hover);
+    width: 120px;
+}
+
+.apresentation h1 {
+    margin: 5px;
+}
+
+.apresentation span {
+    background-color: var(--avatar);
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 0.5rem
+}
+
+.data ul {
+    margin: 10px;
+    padding: 5px
+}
+
+.data ul li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.data ul li p{
+    font-size: 12px;
+}
+
+.data li img {
+    width: 50px;
+    height: 50px;
+    border-top: 1px solid var(--icon-color);
+    border-left: 1px solid var(--icon-color);
+    border-radius: 8px;
+    background: linear-gradient(140deg, var(--icon-color) 1%, var(--bg-information) 10%, var(--bg-card) 60%);
+    padding: 0.8rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        grid-template-columns: 1fr;
+        gap: 20px
+    }
+
+    aside {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    main {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .data ul {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .data li img {
+        width: 40px;
+        height: 40px;
+    }
+
+  }
