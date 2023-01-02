@@ -3,3 +3,63 @@
 
 /*mapa*/
 
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map iframe {
+    width: 80%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .map iframe{
+        width: 100%;
+    }
+}
+
+/*formulario*/
+
+.content-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contact {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.form-contact input, .form-contact textarea {
+    background: none;
+    border-radius: 20px;
+    border: 1px solid var(--avatar);
+    margin: 10px;
+    font-weight: bold;
+}
+
+.form-contact input {
+    padding: 20px 100px 20px 10px;
+}
+
+.form-contact textarea {
+    display: block;
+    width: 80%;
+    padding: 20px 40px 20px 10px;
+}
+
+.form-contact button {
+    color: var(--text-hover);
+    background: none;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 5px;
+}
