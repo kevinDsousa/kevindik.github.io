@@ -12,6 +12,7 @@ function Menu() {
                 </ul>
             </nav>
         </div>`);
-        localeTag.innerHTML = menu
+        localeTag.innerHTML = menu;
 }
+
 Menu()
