@@ -1,6 +1,27 @@
 @import url("./menu.css");
 @import url("./reset.css");
 
-/*main resume*/
+.academy-content {
+    position: relative;
+    padding-left: 5rem;
+}
 
-/*eduacation*/
+.academy-content::before {
+    content: url("../assets/icons/book.png");
+    height: 98%;
+    width: 1px;
+    background-color: var(--text-hover);
+    left: 30px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.academy-content ul li{
+    font-weight: lighter;
+    padding: 10px 0 10px 15px;
+}
+
+
