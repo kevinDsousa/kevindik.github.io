@@ -1,3 +1,17 @@
 @import url("./reset.css");
 @import url("./menu.css");
 
+.content-portifolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-portifolio div {
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
