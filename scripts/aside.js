@@ -1,6 +1,5 @@
 function Aside() {
     let localeTag = document.getElementById("locale-aside");
-    console.log(localeTag);
     let aside = (`
         <div class="apresentation">
             <img src="https://github.com/KevinDik.png" alt="foto de perfil"/>

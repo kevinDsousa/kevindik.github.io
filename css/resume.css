@@ -3,25 +3,13 @@
 
 .academy-content {
     position: relative;
-    padding-left: 5rem;
-}
-
-.academy-content::before {
-    content: url("../assets/icons/book.png");
-    height: 98%;
-    width: 1px;
-    background-color: var(--text-hover);
-    left: 30px;
-    top: 0;
-    position: absolute;
-    z-index: 1;
+    padding-left: 1rem;
     display: flex;
-    justify-content: center;
+    gap: 10px;
 }
 
 .academy-content ul li{
     font-weight: lighter;
     padding: 10px 0 10px 15px;
 }
-
 
