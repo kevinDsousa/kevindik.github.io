@@ -13,3 +13,52 @@
     padding: 10px 0 10px 15px;
 }
 
+@media screen and (max-width: 800px) {
+    .sub-menu-resume {
+        margin: 0 auto;
+    }
+
+    .academy-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*skills*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h3 {
+    margin: 20px 0;
+}
+
+.skills-container {
+    border-top: 1px solid var(--icon-color);
+    border-left: 1px solid var(--icon-color);
+    border-radius: 14px;
+    background-image: linear-gradient(140deg, var(--icon-color), var(--bg-information) 1%, var(--bg-card) 60%);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+.skills-container span {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-container span progress {
+    width: 70%;
+}
+
