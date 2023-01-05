@@ -50,3 +50,32 @@
         font-size: 0.9rem;
     }
   }
+
+ /*sub-menu-resume*/ 
+
+ .sub-menu-resume {
+    display: flex;
+    border: 1px solid var(--text-hover);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    font-weight: bold;
+    margin: 15px 0;
+    background-color: var(--avatar);
+    height: 40px;
+ }
+
+ .sub-menu-resume button {
+    font-weight: normal;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color .3s ease-in-out;
+    background-color: transparent;
+    border: none;
+ }
+
+ .sub-menu-resume button:hover,
+ .sub-menu-resume button:active {
+    color: var(--text-hover);
+ }
