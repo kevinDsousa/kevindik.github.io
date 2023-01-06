@@ -15,4 +15,4 @@ function Menu() {
         localeTag.innerHTML = menu;
 }
 
-Menu()
+Menu();
