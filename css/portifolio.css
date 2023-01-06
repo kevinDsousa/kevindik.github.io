@@ -23,11 +23,12 @@
     width: 220px;
     height: 170px;
     border-radius: 10px;
-    transition: opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
     max-width: 100%;
 }
 
-.card-project a img:hover {
+.card-project a img:hover,
+.card-project a img:active {
     opacity: 0.3;
     transform: scale(1.1);
 }
