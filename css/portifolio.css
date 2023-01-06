@@ -1,17 +1,39 @@
 @import url("./reset.css");
 @import url("./menu.css");
 
-.content-portifolio {
+.projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-    height: 80%;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
-.content-portifolio div {
-    width: 80%;
-    height: 80%;
-    background-color: red;
+.card-project {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 2px;
+}
+
+.card-project img {
+    width: 220px;
+    height: 170px;
+    border-radius: 10px;
+    transition: opacity 0.4s ease-in-out, scale 0.4s ease-in-out;
+    max-width: 100%;
+}
+
+.card-project a img:hover {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
 }

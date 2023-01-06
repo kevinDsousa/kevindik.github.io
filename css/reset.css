@@ -41,7 +41,6 @@ body {
 
 main, aside {
     background-color: var(--bg-card);
-    opacity: .9;
 }
 
 aside {
@@ -49,6 +48,8 @@ aside {
     margin: 1rem 1rem 1rem 2rem;
     border-radius: 20px;
     height: 510px;
+    opacity: .9;
+
 }
 
 main {
