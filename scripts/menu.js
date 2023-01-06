@@ -4,7 +4,7 @@ function Menu() {
         `<div class="content-menu">
             <nav class="menu">
                 <ul>
-                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./index.html">About</a></li>
                     <li><a href="./resume.html">Resume</a></li>
                     <li><a href="./portifolio.html">Portifolio</a></li>
                     <li><a href="./blog.html">Blog</a></li>
