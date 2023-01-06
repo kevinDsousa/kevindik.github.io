@@ -8,7 +8,7 @@ function Aside() {
         </div>
         <div class="data">
             <ul>
-                <li><img src="./assets/icons/icon-email.png" alt="icone email"><p>Email: <span>kevindiegodasilvasousa@gmail.com</span></p></li>
+                <li><img src="./assets/icons/icon-email.png" alt="icone email"><p>Email: <span>kevin.sousa@gmail.com</span></p></li>
                 <li><img src="./assets/icons/icon-phone.png" alt="icone telefone"><p>Telefone: <span>+55 (85) 99928-7198</span></p></li>
                 <li><img src="./assets/icons/icon-calendar.png" alt="icone calendario"><p>Aniversário: <span>22/04</span></p></li>
                 <li><img src="./assets/icons/icon-location.png" alt="icone localizacao"><p>Localização <span>Fortaleza-CE, BR</span></p></li>

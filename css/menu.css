@@ -39,7 +39,7 @@
     color: var(--text-hover);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .menu {
         width: 100%;
         position: absolute;
@@ -48,6 +48,10 @@
 
     .menu ul li {
         font-size: 0.9rem;
+    }
+
+    .menu ul li a {
+        font-size: 18px;
     }
   }
 

@@ -13,7 +13,7 @@
     padding: 10px 0 10px 15px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .sub-menu-resume {
         margin: 0 auto;
     }

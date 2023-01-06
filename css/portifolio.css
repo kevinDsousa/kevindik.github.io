@@ -33,7 +33,7 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .projects {
         grid-template-columns: 1fr 1fr;
     }
