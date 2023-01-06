@@ -3,7 +3,7 @@ function AcademyPerfil () {
     let academy_perfil = (`
         <div class="academy-content">
             <div id="line-img">
-                <img src="../assets/icons/book.png"/>
+                <img src="./assets/icons/book.png"/>
             </div>
             <div>
                 <div>
@@ -48,7 +48,7 @@ function ProfessionalPerfil () {
     let personal_perfil = (`
     <div class="academy-content">
         <div id="line-img">
-            <img src="../assets/icons/bag.png"/>
+            <img src="./assets/icons/bag.png"/>
         </div>
         <div>
             <div>
