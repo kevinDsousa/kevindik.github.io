@@ -85,3 +85,9 @@
  .sub-menu-resume button:active {
     color: var(--text-hover);
  }
+
+ @media screen and (max-width: 480px) {
+    .sub-menu-resume button:first-child {
+        margin-right: 20px;
+    }
+ }
