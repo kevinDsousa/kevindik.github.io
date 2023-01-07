@@ -46,14 +46,16 @@
         border-radius: 20px;
     }
 
-    .menu ul li {
-        font-size: 0.9rem;
-    }
-
     .menu ul li a {
         font-size: 18px;
     }
-  }
+}
+
+@media screen and (max-width: 480px) {
+    .menu ul li a {
+        font-size: 14px;
+    }
+}
 
  /*sub-menu-resume*/ 
 
