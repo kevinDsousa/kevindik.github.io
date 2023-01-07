@@ -143,7 +143,7 @@ main {
     width: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     body {
         grid-template-columns: 1fr;
         gap: 20px
@@ -194,6 +194,16 @@ main {
 
     .social-media {
         margin-top: 10px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .data ul li {
+        display: block;
+    }
+
+    aside {
+        height: 100%;
     }
   }
 
