@@ -90,4 +90,8 @@
     .sub-menu-resume button:first-child {
         margin-right: 20px;
     }
+
+    .sub-menu-resume {
+        width: 80%;
+    }
  }
